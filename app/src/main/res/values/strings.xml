@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">assignment</string>
+    <string name="txt_map_permissions_negative">위치 권한이 거부되었습니다. 페이지를 이용할수 없습니다.</string>
+    <string name="txt_confirm">확인</string>
+</resources>

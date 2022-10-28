@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath('com.android.tools.build:gradle:7.3.1')
+        classpath('org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21')
+        classpath('org.jetbrains.kotlin:kotlin-serialization:1.6.21')
+        classpath('com.google.dagger:hilt-android-gradle-plugin:2.40.1')
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://maven.google.com") }
+        maven { url = uri("https://naver.jfrog.io/artifactory/maven/") }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
