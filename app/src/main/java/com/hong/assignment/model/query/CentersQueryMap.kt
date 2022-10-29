@@ -1,6 +1,6 @@
 package com.hong.assignment.model.query
 
-import com.hong.assignment.BuildConfig
+
 
 
 class CentersQueryMap : HashMap<String, Any>() {

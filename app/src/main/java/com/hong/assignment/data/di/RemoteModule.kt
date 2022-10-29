@@ -1,6 +1,5 @@
 package com.hong.assignment.data.di
 
-import com.hong.assignment.BuildConfig
 import com.hong.assignment.data.remote.CentersApiService
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
